@@ -1,0 +1,198 @@
+/* estilos goblais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.cor-roxa {
+    color: var(--cor00);
+}
+
+:root {
+    --cor00: #3c184e;
+    --cor01: #fff;
+    /* sombra */
+    --cor02: #0000005c;
+    /* cor da transparencia */
+    --cor03: #ffffffc4;
+
+}
+
+/* logo do banner */
+
+.secao-banner {
+    width: 100%;
+    padding: 120px 80px;
+    background-image: url("../Assets/img/banner-topo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container-nome-slogan {
+    max-width: 250px;
+}
+
+.banner {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.banner img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.slogan {
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* segundo container  */
+
+.caixa-top {
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0 auto;
+    background-color: var(--cor03);
+    box-shadow: 0 8px 32px var(--cor02);
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 800px;
+    margin-bottom: 40px;
+}
+
+.whatsapp-topo img {
+    width: 20px;
+}
+
+.whatsapp-topo {
+    color: var(--cor01);
+}
+
+.container-titulo p {
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: var(--cor00);
+    text-align: center;
+    font-size: 20px;
+}
+
+/* secao servicos */
+
+.container-lista {
+    width: 100%;
+    padding: 120px 80px;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.lista {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.span-servicos, .span-redes-sociais {
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* container das imagens  */
+
+.imgs-servicos {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.imgs-servicos img {
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px var(--cor02);
+}
+
+/* redes sociais */
+
+.secao-redes-sociais {
+    padding: 120px 80px;
+    background-color: var(--cor00);
+    color: var(--cor01);
+}
+
+.secao-redes-sociais p {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+    text-align: center;
+}
+
+.redes-sociais img {
+    margin: 0 20px;
+    width: 50px;
+    height: 50px;
+}
+
+/* Containers das marcas */
+
+.marcas {
+    width: 100%;
+    padding: 120px 80px;
+}
+
+h3 {
+    font-size: 36px;
+    text-align: center;
+    margin: 0 auto 45px auto;
+}
+
+.container-marcas {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container-marcas img {
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
+
+/* secao onde estamos */
+
+.secao-onde-estamos {
+    width: 100%;
+    padding: 120px 80px;
+    text-align: center;
+}
+
+.secao-onde-estamos p {
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+/* rodape */
+
+.secao-rodape{
+    text-align: center;
+    background-color: var(--cor00);
+    color: var(--cor01);
+    padding: 20px;
+}
